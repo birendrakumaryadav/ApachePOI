@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [vtigerTestSouite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="marketing suite(failed)" verbose="2">
+    <classes>
+      <class name="com.eva.vtiger.testscripts.Testcase">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.eva.vtiger.testscripts.Testcase -->
+    </classes>
+  </test> <!-- marketing suite(failed) -->
+</suite> <!-- Failed suite [vtigerTestSouite] -->

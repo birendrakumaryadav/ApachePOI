@@ -1,0 +1,87 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="vtigerTestSouite" verbose="2" >
+   
+   <listeners>
+      <listener  class-name="com.eva.vtiger.utils.RetryFailedTestCases"></listener>
+                                          
+      </listeners>
+    <test name="marketing suite">
+    
+    <classes>
+      <class name="com.eva.vtiger.testscripts.Testcase"/>
+      
+    </classes>
+   </test>
+</suite>
+
+
+
+
+
+
+
+<!-- <suite name="vtigerTestSouite" verbose="2">
+   <groups>
+    <run>
+      <include name="Smoke"/>
+      <exclude name="Smoke"/> 
+    </run>
+  </groups>
+    <test name="Test">
+     <parameter name="browser" value="Chrome" />
+   <parameter name="username" value="admin" />
+    <parameter name="password" value="admin" />
+    <classes>
+      <class name="com.eva.vtiger.testscripts.Testcase"/>
+      
+    </classes>
+   </test>
+</suite>
+ -->
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="vtigerTestSouite" verbose="2">
+
+  <test name="MarketingSalesSuite"/>
+   <groups>
+    <run>
+      <include name="Smoke"/>
+      <exclude name="Smoke"/> 
+    </run>
+  </groups>
+  
+  <parameter name="browser" value="Chrome" />
+   <parameter name="username" value="admin" />
+    <parameter name="password" value="admin" />
+    <classes>
+       <class name="com.eva.vtiger.testscripts.MarketingAccountTestScripts" />
+        <class name="com.eva.vtiger.testscripts.MarketingLeadsTestScripts" />
+    </classes>
+   
+  </test>
+  
+  
+  
+  <packages>
+   <package name="com.eva.vtiger.TestScripts.marketing"/>
+    <package name="com.eva.vtiger.TestScripts.Sales"/>
+   </packages>
+
+  </test>
+    <test name="InventorySuite"/>
+    <classes>
+      <class name="com.eva.vtiger.testscripts.InventryInvoiceTestScripts"/>
+      
+    </classes>
+   </test>
+</suite> --> 
